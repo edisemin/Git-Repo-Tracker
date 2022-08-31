@@ -1,0 +1,61 @@
+.show {
+    display: flex;
+}
+.hide {
+    display: none;
+}
+
+.repos {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2em;
+}
+
+
+.repos h1 {
+    margin: 0 auto;
+    color:rgb(61, 11, 225);
+    font-weight: 450;
+}
+
+.repos h1:hover {
+    cursor: pointer;
+}
+
+.repodata-container {
+    width: 90%;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 1em;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.repodata-container li {
+    margin: 0 1em;
+}
+
+
+.tooltip {
+    position: relative;
+}
+
+.tooltip .tooltip-text {
+    visibility: hidden;
+    width: 120px;
+    text-align: center;
+    padding: 5px 0;
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+    z-index: 1;
+    opacity: 0;
+    font-size: 18px;
+}
+
